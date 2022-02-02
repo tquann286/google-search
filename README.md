@@ -1,70 +1,22 @@
-# useDebounce: tránh spam gọi api khi thay đổi input 
+# Google Search (update data real time)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Chức năng chính:
 
-## Available Scripts
+- Tìm kiếm như các trang web, hình ảnh, videos, tin tức
 
-In the project directory, you can run:
+## Công nghệ mình sử dụng trong project này:
 
-### `npm start`
+- [React](https://reactjs.org/)
+- [Craco](https://www.npmjs.com/package/@craco/craco): "Get all the benefits of create-react-app and customization without using 'eject' by adding a single configuration (e.g. craco.config.js) file at the root of your application and customize your eslint, babel, postcss configurations and many more." 
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer): "PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use", được Google khuyên dùng
+- [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner): Loader React SVG đơn giản
+- [react-player](https://www.npmjs.com/package/react-player): "A React component for playing a variety of URLs, including file paths, YouTube, Facebook, Twitch, SoundCloud, Streamable, Vimeo, Wistia, Mixcloud, DailyMotion and Kaltura"
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom): Điều hướng React website
+- [use-debounce](https://www.npmjs.com/package/use-debounce): tránh spam API khi thay đổi input
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## API được sử dụng:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Google Search](https://rapidapi.com/apigeek/api/google-search3): Tìm kiếm trên Google cực kỳ nhanh chóng và đơn giản
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## [Demo](https://tquann286-google-search.netlify.app/)
+### https://tquann286-google-search.netlify.app/
