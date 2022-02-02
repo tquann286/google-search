@@ -40,7 +40,7 @@ export const Result = () => {
 		case '/images':
 			return (
 				<div className='flex flex-wrap justify-center items-center'>
-					{results.map(({ image, link: { href, title } }, index) => (
+					{results?.map(({ image, link: { href, title } }, index) => (
 						<a
 							key={index}
 							href={href}
@@ -48,7 +48,7 @@ export const Result = () => {
 							target='_blank'
 							rel='noreferrer'
 						>
-							<img src={image.src} alt={title} loading='lazy' />
+							<img src={image?.src} alt={title} loading='lazy' />
 							<p className='w-36 break-words text-sm mt-2'>{title}</p>
 						</a>
 					))}
@@ -57,10 +57,10 @@ export const Result = () => {
 		case '/news':
 			return (
 				<div className='sm:px-56 flex flex-wrap justify-between items-center space-y-6'>
-					{results.map(({ id, links, source, title }) => (
+					{results?.map(({ id, links, source, title }) => (
 						<div key={id} className='md:w-2/5 w-full '>
 							<a
-								href={links[0].href}
+								href={links?.[0]?.href}
 								target='_blank'
 								rel='noreferrer '
 								className='hover:underline '
@@ -71,12 +71,12 @@ export const Result = () => {
 							</a>
 							<div className='flex gap-4'>
 								<a
-									href={source.href}
+									href={source?.href}
 									target='_blank'
 									rel='noreferrer'
 									className='hover:underline hover:text-blue-300'
 								>
-									{source.href}
+									{source?.href}
 								</a>
 							</div>
 						</div>
@@ -86,10 +86,10 @@ export const Result = () => {
 		case '/videos':
 			return (
 				<div className='flex flex-wrap'>
-					{results.map((video, index) => (
+					{results?.map((video, index) => (
 						<div key={index} className='p-2'>
 							<ReactPlayer
-								url={video.additional_links[0].href}
+								url={video?.additional_links?.[0].href}
 								controls
 								width='355px'
 								height='200px'
