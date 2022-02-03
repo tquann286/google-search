@@ -2,11 +2,12 @@
 
 ## Chức năng chính:
 
-- Tìm kiếm như các trang web, hình ảnh, videos, tin tức
+- Tìm kiếm như các trang web, hình ảnh, videos, tin tức, dark/light mode
 
 ## Công nghệ mình sử dụng trong project này:
 
 - [React](https://reactjs.org/)
+- [TailwindCSS](https://tailwindcss.com/): Viết CSS nhanh chóng, cho hiệu năng cao hơn 
 - [Craco](https://www.npmjs.com/package/@craco/craco): "Get all the benefits of create-react-app and customization without using 'eject' by adding a single configuration (e.g. craco.config.js) file at the root of your application and customize your eslint, babel, postcss configurations and many more." 
 - [autoprefixer](https://www.npmjs.com/package/autoprefixer): "PostCSS plugin to parse CSS and add vendor prefixes to CSS rules using values from Can I Use", được Google khuyên dùng
 - [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner): Loader React SVG đơn giản
